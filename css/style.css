@@ -1,16 +1,91 @@
 Body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg) no-repeat
+    top right fixed;
+  background-size: 100% 100%;
+  height: 100%;
+  position: absolute;
+  width: 1000px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.cta {
+  background-color: #0b3b59;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 1em;
+  padding: 10px 60px;
+  text-transform: uppercase;
+  font-family: ;
 }
 
 /* Header */
 
-.logo {
-  max-width: 294px;
+Header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.main {
-  background-image: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+.logo {
+  max-width: 294px;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #0b3b59;
+}
+
+/* Main */
+
+.new-arrivals {
+  width: 90%;
+  border: 2px solid #0b3b59;
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.new-arrivals img {
+  width: 100%;
+  height: auto;
+}
+
+.new-arrivals h2 {
+  position: absolute;
+  top: -10px;
+  right: 40%;
+  color: #0b3b59;
+  font-size: 40px;
+}
+
+.new-arrivals .cta {
+  padding: 10px 30px;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  background-color: #17803f;
+}
+
+/* Join */
+
+.join {
+  width: 90%;
+  border: 4px solid #0b3b59;
+  text-align: center;
+  margin: 20px 0;
+  padding-bottom: 25px;
 }
