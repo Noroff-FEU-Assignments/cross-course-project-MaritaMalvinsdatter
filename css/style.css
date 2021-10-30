@@ -91,23 +91,51 @@ a {
 
 /* Category*/
 
-.categories {
+/* .categories {
   display: flex;
   max-width: 1000px;
   margin: 50px auto;
 }
 
 .categories > * {
-  /* flex: 1; */
+  flex: 1;
 }
 
 .categories-specific {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   gap: 10px;
   margin-top: 5px;
 }
 
 .category-images {
   max-width: 100%;
+} */
+
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1000px;
+  /* max-height: auto; */
+  margin: 50px auto;
+  grid-gap: 10px;
+}
+
+.categories-specific {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.categories h2 {
+  grid-column: -1/1;
+}
+
+.categories img {
+  width: 100%;
+  grid-column: 1;
+}
+
+.category p {
+  grid-column: 1;
 }
