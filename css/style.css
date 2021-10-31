@@ -33,7 +33,7 @@
   }
 
   .logo {
-    max-width: 250px;
+    max-width: 200px;
   }
 
   nav {
@@ -193,9 +193,9 @@
     color: #fff;
     border-radius: 30px;
     text-transform: uppercase;
-    padding: 5px 50px;
+    padding: 20px 70px;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
@@ -204,24 +204,22 @@
 
   Header {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .logo {
     max-width: 250px;
   }
 
-  nav {
-    display: none;
-  }
-
   #hamburger-menu {
     display: none;
   }
 
-  #hamburger-menu:checked ~ nav {
-    display: block;
+  .fa-solid {
+    display: none;
   }
 
   nav ul {
@@ -231,7 +229,7 @@
   nav li {
     display: inline;
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 2em;
   }
 
   a {
@@ -246,7 +244,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 300px;
+    min-height: 450px;
     border: 2px solid rgb(11, 59, 89);
     position: relative;
     text-align: center;
@@ -271,7 +269,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: rgb(11, 59, 89);
     width: 100%;
   }
@@ -287,12 +285,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 15px 0px 25px 0px;
     flex-direction: column;
   }
 
   .join p {
     font-weight: bold;
+    font-size: 1.5em;
   }
 
   /* Category*/
@@ -307,6 +306,7 @@
 
   .categories-specific {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 20px;
   }
@@ -318,12 +318,12 @@
 
   .categories h2 {
     width: 100%;
-    font-size: 2em;
+    font-size: 3em;
     color: #0b3b59;
   }
 
   .categories a {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: #17803f;
   }
 
@@ -342,13 +342,14 @@
   }
 
   .clearance-content {
-    position: absolute;
     text-align: center;
+    margin: 60px;
   }
 
   .clearance-content h2 {
-    font-size: 2em;
+    font-size: 3em;
     color: #fff;
+    margin: 50px;
   }
 }
 
