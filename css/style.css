@@ -115,3 +115,23 @@ a {
 .categories a {
   color: #17803f;
 }
+
+/* Clearance */
+.clearance {
+  background-image: url(/images/jon-flobrant-_r19nfvS3wY-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 65%;
+  min-width: 345px;
+  min-height: 250px;
+  position: relative;
+  opacity: 60%;
+}
+
+.clearance-content {
+  position: absolute;
+  top: 220px;
+  left: 150px;
+  text-align: center;
+  opacity: 100%;
+}
