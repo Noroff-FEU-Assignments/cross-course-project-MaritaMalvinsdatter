@@ -130,8 +130,16 @@ a {
 
 .clearance-content {
   position: absolute;
-  top: 220px;
-  left: 150px;
+  top: 50px;
+  left: 200px;
   text-align: center;
+}
+
+.clearance-content h2 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.clearance .cta {
   opacity: 100%;
 }
