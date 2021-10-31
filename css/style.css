@@ -6,11 +6,7 @@ Body {
   background: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg) no-repeat
     top right fixed;
   background-size: 100% 100%;
-  height: 100%;
-  position: absolute;
-  width: 1000px;
   padding: 20px;
-  margin: 10px;
 }
 
 .cta {
@@ -59,7 +55,7 @@ a {
   background-image: url(/images/pexels-guduru-ajay-bhargav-939722.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 90%;
+  width: 100%;
   min-height: 550px;
   border: 2px solid #0b3b59;
   position: relative;
@@ -95,7 +91,7 @@ a {
 /* Join */
 
 .join {
-  width: 90%;
+  width: 100%;
   border: 4px solid #0b3b59;
   text-align: center;
   margin: 20px 0;
@@ -111,7 +107,7 @@ a {
 
 .categories {
   grid-template-columns: 1fr 1fr 1fr;
-  max-width: 90%;
+  max-width: 100%;
   margin-top: 50px;
   grid-gap: 10px;
   text-align: center;
@@ -127,10 +123,6 @@ a {
 .categories img {
   width: 100%;
   grid-column: 1;
-}
-
-.categories h2,
-.categories a {
 }
 
 .categories h2 {
@@ -154,7 +146,7 @@ a {
   opacity: 60%;
   margin-top: 50px;
   border: 2px solid #0b3b59;
-  width: 90%;
+  width: 100%;
 }
 
 .clearance-content {
