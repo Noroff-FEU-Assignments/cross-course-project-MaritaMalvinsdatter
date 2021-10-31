@@ -362,7 +362,7 @@
     background: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg)
       no-repeat top right fixed;
     background-size: 100% 100%;
-    padding: 20px;
+    padding: 10px 150px;
   }
 
   .cta {
@@ -370,7 +370,7 @@
     color: #fff;
     border-radius: 30px;
     text-transform: uppercase;
-    padding: 5px 50px;
+    padding: 15px 60px;
     text-transform: uppercase;
     font-size: 1.5em;
     font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
@@ -381,24 +381,22 @@
 
   Header {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .logo {
-    max-width: 250px;
-  }
-
-  nav {
-    display: none;
+    max-width: 300px;
   }
 
   #hamburger-menu {
     display: none;
   }
 
-  #hamburger-menu:checked ~ nav {
-    display: block;
+  .fa-solid {
+    display: none;
   }
 
   nav ul {
@@ -408,7 +406,8 @@
   nav li {
     display: inline;
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
   }
 
   a {
@@ -423,11 +422,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 300px;
+    min-height: 650px;
     border: 2px solid rgb(11, 59, 89);
     position: relative;
     text-align: center;
-    background-position-y: 50%;
+    background-position-y: 45%;
+    margin-top: 30px;
   }
 
   .new-arrivals-content {
@@ -448,7 +448,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 3em;
     color: rgb(11, 59, 89);
     width: 100%;
   }
@@ -459,31 +459,29 @@
     width: 100%;
     border: 4px solid #0b3b59;
     text-align: center;
-    margin: 20px 0;
-    padding-bottom: 25px;
+    margin-top: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 30px 0;
-    flex-direction: column;
+    flex-direction: row;
+    align-content: center;
   }
 
   .join p {
     font-weight: bold;
+    font-size: 30px;
   }
 
   /* Category*/
 
   .categories {
-    grid-template-columns: 1fr 1fr 1fr;
     max-width: 100%;
     margin-top: 50px;
-    grid-gap: 10px;
     text-align: center;
   }
 
   .categories-specific {
-    display: grid;
+    display: flex;
     align-items: center;
     gap: 20px;
   }
@@ -495,12 +493,12 @@
 
   .categories h2 {
     width: 100%;
-    font-size: 2em;
+    font-size: 3em;
     color: #0b3b59;
   }
 
   .categories a {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #17803f;
   }
 
@@ -519,12 +517,12 @@
   }
 
   .clearance-content {
-    position: absolute;
     text-align: center;
   }
 
   .clearance-content h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #fff;
+    margin: 30px 0 50px;
   }
 }
