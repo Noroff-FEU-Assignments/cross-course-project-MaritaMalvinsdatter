@@ -21,7 +21,8 @@ Body {
   padding: 10px 70px;
   text-transform: uppercase;
   font-size: 2em;
-  font-family: ;
+  font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Header */
@@ -66,12 +67,29 @@ a {
   background-position-y: center;
 }
 
-.new-arrivals-content .cta {
-  background-color: #17803f;
+.new-arrivals-content {
+  padding: 50px;
 }
 
-.new-arrivals-conten p {
-  margin-bottom: 435px;
+.new-arrivals-content .cta {
+  background-color: #17803f;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.h2 {
+  font-weight: bold;
+  font-size: 3em;
+  color: #0b3b59;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 3em;
+  color: #0b3b59;
 }
 
 /* Join */
