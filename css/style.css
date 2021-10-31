@@ -1,164 +1,529 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
-Body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg) no-repeat
-    top right fixed;
-  background-size: 100% 100%;
-  padding: 20px;
+/* Mobile */
+
+@media only screen and (max-width: 450px) {
+  Body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    background: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg)
+      no-repeat top right fixed;
+    background-size: 100% 100%;
+    padding: 20px;
+  }
+
+  .cta {
+    background-color: #0b3b59;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 5px 50px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  /* Header */
+
+  Header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    max-width: 250px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  #hamburger-menu:checked ~ nav {
+    display: block;
+  }
+
+  nav ul {
+    list-style-type: none;
+  }
+
+  nav li {
+    display: inline;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #0b3b59;
+  }
+
+  /* Main */
+
+  .new-arrivals {
+    background-image: url(/images/pexels-guduru-ajay-bhargav-939722.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+    border: 2px solid rgb(11, 59, 89);
+    position: relative;
+    text-align: center;
+    background-position-y: 50%;
+  }
+
+  .new-arrivals-content {
+    padding: 50px;
+  }
+
+  .new-arrivals-content .cta {
+    background-color: #17803f;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .h2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(11, 59, 89);
+    width: 100%;
+  }
+
+  /* Join */
+
+  .join {
+    width: 100%;
+    border: 4px solid #0b3b59;
+    text-align: center;
+    margin: 20px 0;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    flex-direction: column;
+  }
+
+  .join p {
+    font-weight: bold;
+  }
+
+  /* Category*/
+
+  .categories {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    margin-top: 50px;
+    grid-gap: 10px;
+    text-align: center;
+  }
+
+  .categories-specific {
+    display: grid;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .categories img {
+    width: 100%;
+    grid-column: 1;
+  }
+
+  .categories h2 {
+    width: 100%;
+    font-size: 2em;
+    color: #0b3b59;
+  }
+
+  .categories a {
+    font-size: 1.5em;
+    color: #17803f;
+  }
+
+  /* Clearance */
+  .clearance {
+    background-image: url(/images/jon-flobrant-_r19nfvS3wY-png.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 65%;
+    background-position-x: 50%;
+    min-height: 200px;
+    position: relative;
+    margin-top: 50px;
+    border: 2px solid #0b3b59;
+    width: 100%;
+  }
+
+  .clearance-content {
+    position: absolute;
+    text-align: center;
+  }
+
+  .clearance-content h2 {
+    font-size: 2em;
+    color: #fff;
+  }
 }
 
-.cta {
-  background-color: #0b3b59;
-  color: #fff;
-  border-radius: 30px;
-  text-transform: uppercase;
-  padding: 5px 50px;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+/*Tablet*/
+
+@media only screen and (max-width: 1025px) and (min-width: 451px) {
+  Body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    background: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg)
+      no-repeat top right fixed;
+    background-size: 100% 100%;
+    padding: 20px;
+  }
+
+  .cta {
+    background-color: #0b3b59;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 5px 50px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  /* Header */
+
+  Header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    max-width: 250px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  #hamburger-menu:checked ~ nav {
+    display: block;
+  }
+
+  nav ul {
+    list-style-type: none;
+  }
+
+  nav li {
+    display: inline;
+    padding: 0 10px;
+    font-size: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #0b3b59;
+  }
+
+  /* Main */
+
+  .new-arrivals {
+    background-image: url(/images/pexels-guduru-ajay-bhargav-939722.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+    border: 2px solid rgb(11, 59, 89);
+    position: relative;
+    text-align: center;
+    background-position-y: 50%;
+  }
+
+  .new-arrivals-content {
+    padding: 50px;
+  }
+
+  .new-arrivals-content .cta {
+    background-color: #17803f;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .h2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(11, 59, 89);
+    width: 100%;
+  }
+
+  /* Join */
+
+  .join {
+    width: 100%;
+    border: 4px solid #0b3b59;
+    text-align: center;
+    margin: 20px 0;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    flex-direction: column;
+  }
+
+  .join p {
+    font-weight: bold;
+  }
+
+  /* Category*/
+
+  .categories {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    margin-top: 50px;
+    grid-gap: 10px;
+    text-align: center;
+  }
+
+  .categories-specific {
+    display: grid;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .categories img {
+    width: 100%;
+    grid-column: 1;
+  }
+
+  .categories h2 {
+    width: 100%;
+    font-size: 2em;
+    color: #0b3b59;
+  }
+
+  .categories a {
+    font-size: 1.5em;
+    color: #17803f;
+  }
+
+  /* Clearance */
+  .clearance {
+    background-image: url(/images/jon-flobrant-_r19nfvS3wY-png.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 65%;
+    background-position-x: 50%;
+    min-height: 200px;
+    position: relative;
+    margin-top: 50px;
+    border: 2px solid #0b3b59;
+    width: 100%;
+  }
+
+  .clearance-content {
+    position: absolute;
+    text-align: center;
+  }
+
+  .clearance-content h2 {
+    font-size: 2em;
+    color: #fff;
+  }
 }
 
-/* Header */
+/*Desktop*/
 
-Header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
+@media only screen and (min-width: 1026px) {
+  Body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    background: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg)
+      no-repeat top right fixed;
+    background-size: 100% 100%;
+    padding: 20px;
+  }
 
-.logo {
-  max-width: 250px;
-}
+  .cta {
+    background-color: #0b3b59;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 5px 50px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
 
-nav ul {
-  list-style-type: none;
-}
+  /* Header */
 
-nav li {
-  display: inline;
-  padding: 0 10px;
-  font-size: 20px;
-}
+  Header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
 
-a {
-  text-decoration: none;
-  color: #0b3b59;
-}
+  .logo {
+    max-width: 250px;
+  }
 
-/* Main */
+  nav {
+    display: none;
+  }
 
-.new-arrivals {
-  background-image: url(/images/pexels-guduru-ajay-bhargav-939722.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 300px;
-  border: 2px solid rgb(11, 59, 89);
-  position: relative;
-  text-align: center;
-  background-position-y: 50%;
-}
+  #hamburger-menu {
+    display: none;
+  }
 
-.new-arrivals-content {
-  padding: 50px;
-}
+  #hamburger-menu:checked ~ nav {
+    display: block;
+  }
 
-.new-arrivals-content .cta {
-  background-color: #17803f;
-  position: absolute;
-  bottom: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  nav ul {
+    list-style-type: none;
+  }
 
-.h2 {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: bold;
-  font-size: 1.5em;
-  color: rgb(11, 59, 89);
-  width: 100%;
-}
+  nav li {
+    display: inline;
+    padding: 0 10px;
+    font-size: 20px;
+  }
 
-/* Join */
+  a {
+    text-decoration: none;
+    color: #0b3b59;
+  }
 
-.join {
-  width: 100%;
-  border: 4px solid #0b3b59;
-  text-align: center;
-  margin: 20px 0;
-  padding-bottom: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 0;
-  flex-direction: column;
-}
+  /* Main */
 
-.join p {
-  font-weight: bold;
-}
+  .new-arrivals {
+    background-image: url(/images/pexels-guduru-ajay-bhargav-939722.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+    border: 2px solid rgb(11, 59, 89);
+    position: relative;
+    text-align: center;
+    background-position-y: 50%;
+  }
 
-/* Category*/
+  .new-arrivals-content {
+    padding: 50px;
+  }
 
-.categories {
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 100%;
-  margin-top: 50px;
-  grid-gap: 10px;
-  text-align: center;
-}
+  .new-arrivals-content .cta {
+    background-color: #17803f;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-.categories-specific {
-  display: grid;
-  align-items: center;
-  gap: 20px;
-}
+  .h2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(11, 59, 89);
+    width: 100%;
+  }
 
-.categories img {
-  width: 100%;
-  grid-column: 1;
-}
+  /* Join */
 
-.categories h2 {
-  width: 100%;
-  font-size: 2em;
-  color: #0b3b59;
-}
+  .join {
+    width: 100%;
+    border: 4px solid #0b3b59;
+    text-align: center;
+    margin: 20px 0;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    flex-direction: column;
+  }
 
-.categories a {
-  font-size: 1.5em;
-  color: #17803f;
-}
+  .join p {
+    font-weight: bold;
+  }
 
-/* Clearance */
-.clearance {
-  background-image: url(/images/jon-flobrant-_r19nfvS3wY-png.png);
-  /* background-size: cover; */
-  background-repeat: no-repeat;
-  background-position-y: 65%;
-  background-position-x: 50%;
-  min-height: 200px;
-  position: relative;
-  margin-top: 50px;
-  border: 2px solid #0b3b59;
-  width: 100%;
-}
+  /* Category*/
 
-.clearance-content {
-  position: absolute;
-  text-align: center;
-}
+  .categories {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    margin-top: 50px;
+    grid-gap: 10px;
+    text-align: center;
+  }
 
-.clearance-content h2 {
-  font-size: 2em;
-  color: #fff;
-}
+  .categories-specific {
+    display: grid;
+    align-items: center;
+    gap: 20px;
+  }
 
-.clearance .cta {
+  .categories img {
+    width: 100%;
+    grid-column: 1;
+  }
+
+  .categories h2 {
+    width: 100%;
+    font-size: 2em;
+    color: #0b3b59;
+  }
+
+  .categories a {
+    font-size: 1.5em;
+    color: #17803f;
+  }
+
+  /* Clearance */
+  .clearance {
+    background-image: url(/images/jon-flobrant-_r19nfvS3wY-png.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 65%;
+    background-position-x: 50%;
+    min-height: 200px;
+    position: relative;
+    margin-top: 50px;
+    border: 2px solid #0b3b59;
+    width: 100%;
+  }
+
+  .clearance-content {
+    position: absolute;
+    text-align: center;
+  }
+
+  .clearance-content h2 {
+    font-size: 2em;
+    color: #fff;
+  }
 }
