@@ -30,8 +30,7 @@ Header {
 }
 
 .logo {
-  max-width: 294px;
-  padding: 20px;
+  max-width: 250px;
 }
 
 nav ul {
@@ -139,7 +138,7 @@ a {
 
 /* Clearance */
 .clearance {
-  background-image: url(/images\jon-flobrant-_r19nfvS3wY-png.png);
+  background-image: url(/images/jon-flobrant-_r19nfvS3wY-png.png);
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position-y: 65%;
