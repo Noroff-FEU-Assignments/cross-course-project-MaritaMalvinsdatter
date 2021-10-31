@@ -107,7 +107,6 @@ a {
 .categories {
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 90%;
-  /* max-height: auto; */
   margin-top: 50px;
   grid-gap: 10px;
   text-align: center;
@@ -127,6 +126,14 @@ a {
 .categories h2,
 .categories a {
   color: #17803f;
+}
+
+.categories h2 {
+  font-size: 3em;
+}
+
+.categories a {
+  font-size: 2em;
 }
 
 /* Clearance */
