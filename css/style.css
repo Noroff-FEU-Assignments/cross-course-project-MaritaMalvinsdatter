@@ -14,9 +14,9 @@ Body {
   color: #fff;
   border-radius: 30px;
   text-transform: uppercase;
-  padding: 10px 70px;
+  padding: 5px 50px;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -56,11 +56,11 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 550px;
-  border: 2px solid #0b3b59;
+  min-height: 300px;
+  border: 2px solid rgb(11, 59, 89);
   position: relative;
   text-align: center;
-  background-position-y: center;
+  background-position-y: 50%;
 }
 
 .new-arrivals-content {
@@ -76,16 +76,14 @@ a {
 }
 
 .h2 {
-  font-weight: bold;
-  font-size: 3em;
-  color: #0b3b59;
   position: absolute;
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
-  font-size: 3em;
-  color: #0b3b59;
+  font-size: 1.5em;
+  color: rgb(11, 59, 89);
+  width: 100%;
 }
 
 /* Join */
@@ -103,6 +101,10 @@ a {
   flex-direction: column;
 }
 
+.join p {
+  font-weight: bold;
+}
+
 /* Category*/
 
 .categories {
@@ -115,7 +117,6 @@ a {
 
 .categories-specific {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   gap: 20px;
 }
@@ -126,24 +127,25 @@ a {
 }
 
 .categories h2 {
-  font-size: 3em;
+  width: 100%;
+  font-size: 2em;
   color: #0b3b59;
 }
 
 .categories a {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #17803f;
 }
 
 /* Clearance */
 .clearance {
-  background-image: url(/images/jon-flobrant-_r19nfvS3wY-unsplash.jpg);
-  background-size: cover;
+  background-image: url(/images\jon-flobrant-_r19nfvS3wY-png.png);
+  /* background-size: cover; */
   background-repeat: no-repeat;
   background-position-y: 65%;
-  min-height: 250px;
+  background-position-x: 50%;
+  min-height: 200px;
   position: relative;
-  opacity: 60%;
   margin-top: 50px;
   border: 2px solid #0b3b59;
   width: 100%;
@@ -151,16 +153,13 @@ a {
 
 .clearance-content {
   position: absolute;
-  top: 50px;
-  left: 140px;
   text-align: center;
 }
 
 .clearance-content h2 {
-  font-size: 40px;
+  font-size: 2em;
   color: #fff;
 }
 
 .clearance .cta {
-  opacity: 100%;
 }
