@@ -1,175 +1,183 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
-
-  Body {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    background: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg)
-      no-repeat top right fixed;
-    background-size: 100% 100%;
-    padding: 20px;
-  }
-
-  .cta {
-    background-color: #0b3b59;
-    color: #fff;
-    border-radius: 30px;
-    text-transform: uppercase;
-    padding: 5px 50px;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-  }
-
-  /* Header */
-
-  Header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .logo {
-    max-width: 200px;
-  }
-
-  nav {
-    display: none;
-  }
-
-  #hamburger-menu {
-    display: none;
-  }
-
-  #hamburger-menu:checked ~ nav {
-    display: block;
-  }
-
-  nav ul {
-    list-style-type: none;
-  }
-
-  nav li {
-    display: inline;
-    padding: 0 10px;
-    font-size: 20px;
-  }
-
-  a {
-    text-decoration: none;
-    color: #0b3b59;
-  }
-
-  /* Main */
-
-  .new-arrivals {
-    background-image: url(/images/pexels-guduru-ajay-bhargav-939722.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* width: 100%; */
-    min-height: 300px;
-    border: 2px solid rgb(11, 59, 89);
-    position: relative;
-    text-align: center;
-    background-position-y: 50%;
-  }
-
-  .new-arrivals-content {
-    padding: 50px;
-  }
-
-  .new-arrivals-content .cta {
-    background-color: #17803f;
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .h2 {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    font-size: 1.5em;
-    color: rgb(11, 59, 89);
-    width: 100%;
-  }
-
-  /* Join */
-
-  .join {
-    /* width: 100%; */
-    border: 2px solid #0b3b59;
-    text-align: center;
-    margin: 20px 0;
-    padding-bottom: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .join p {
-    font-weight: bold;
-  }
-
-  /* Category*/
-
-  .categories {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .categories-specific {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .categories img {
-    width: 100%;
-  }
-
-  .categories h2 {
-    width: 100%;
-    font-size: 2em;
-    color: #0b3b59;
-  }
-
-  .categories a {
-    font-size: 1.5em;
-    color: #17803f;
-  }
-
-  /* Clearance */
-  .clearance {
-    background-image: url(/images/jon-flobrant-_r19nfvS3wY-png.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-y: 65%;
-    background-position-x: 50%;
-    min-height: 200px;
-    position: relative;
-    margin-top: 50px;
-    border: 2px solid #0b3b59;
-    width: 100%;
-  }
-
-  .clearance-content {
-    position: absolute;
-    text-align: center;
-  }
-
-  .clearance-content h2 {
-    font-size: 2em;
-    color: #fff;
-  }
+Body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg) no-repeat
+    top right fixed;
+  background-size: 100% 100%;
+  padding: 20px;
 }
 
+.cta {
+  background-color: #0b3b59;
+  color: #fff;
+  border-radius: 30px;
+  text-transform: uppercase;
+  padding: 5px 35px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 
+/* Header */
+
+Header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+nav {
+  display: none;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+.nav-container {
+  position: relative;
+}
+
+.nav-container label {
+  padding: 0px 0px 0px 20px;
+}
+
+nav {
+  position: absolute;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #0b3b59;
+}
+
+/* Main */
+
+.new-arrivals {
+  background-image: url(/images/pexels-guduru-ajay-bhargav-939722.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  border: 2px solid rgb(11, 59, 89);
+  position: relative;
+  text-align: center;
+  background-position-y: 50%;
+}
+
+.new-arrivals-content {
+  padding: 50px;
+}
+
+.new-arrivals-content .cta {
+  background-color: #17803f;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.h2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1.5em;
+  color: rgb(11, 59, 89);
+  width: 100%;
+}
+
+/* Join */
+
+.join {
+  /* width: 100%; */
+  border: 2px solid #0b3b59;
+  text-align: center;
+  margin: 20px 0;
+  padding: 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.join p {
+  font-weight: bold;
+}
+
+/* Category*/
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  text-align: center;
+}
+
+.categories-specific {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.categories img {
+  width: 100%;
+}
+
+.categories h2 {
+  width: 100%;
+  font-size: 2em;
+  color: #0b3b59;
+  margin: 15px auto;
+}
+
+.categories a {
+  font-size: 1.5em;
+  color: #17803f;
+}
+
+/* Clearance */
+.clearance {
+  background-image: url(/images/jon-flobrant-_r19nfvS3wY-png.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  position: relative;
+  margin-top: 50px;
+  border: 2px solid #0b3b59;
+  padding: 0px 5px;
+}
+
+.clearance-content {
+  position: absolute;
+  text-align: center;
+}
+
+.clearance-content h2 {
+  font-size: 2em;
+  color: #fff;
+}
