@@ -97,7 +97,6 @@ a {
 }
 
 .new-arrivals-content .cta {
-  /* background-color: #17803f; */
   position: absolute;
   bottom: 0%;
   left: 50%;
@@ -156,7 +155,7 @@ a {
 
 .categories h2 {
   width: 100%;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #0b3b59;
   margin: 15px auto;
 }
@@ -171,7 +170,7 @@ a {
   background-image: url(/images/jon-flobrant-_r19nfvS3wY-png.png);
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 200px;
+  min-height: 150px;
   position: relative;
   background-position-y: center;
   margin-top: 50px;
@@ -184,9 +183,16 @@ a {
 }
 
 .clearance-content h2 {
-  font-size: 1.5em;
+  font-size: 25px;
   color: #fff;
 }
+
+footer {
+  background-color: #0b3b59;
+}
+
+
+/* Fra 600px */
 
 @media only screen and (min-width: 600px) {
   .main {
@@ -216,7 +222,19 @@ a {
   .nav-container label {
     display: none;
   }
+
+  .clearance {
+    min-height: 200px;
+  }
+
+  .clearance h2 {
+    font-size: 2em;
+    margin-top: 50px;
+  }
 }
+
+
+/* Fra 1000px */
 
 @media only screen and (min-width: 1000px) {
   .main {
@@ -226,6 +244,10 @@ a {
 
   .h2 {
     font-size: 1.5em;
+  }
+
+  .categories h2 {
+    font-size: 2em;
   }
 
   .cta {
@@ -272,8 +294,4 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .clearance-content h2 {
-    font-size: 2em;
   }
