@@ -7,6 +7,7 @@ Body {
     top right fixed;
   background-size: 100% 100%;
   padding: 20px;
+  font-size: 16px;
 }
 
 .cta {
@@ -96,7 +97,7 @@ a {
 }
 
 .new-arrivals-content .cta {
-  background-color: #17803f;
+  /* background-color: #17803f; */
   position: absolute;
   bottom: 0%;
   left: 50%;
@@ -109,7 +110,8 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
-  font-size: 1.5em;
+  text-transform: uppercase;
+  font-size: 1em;
   color: rgb(11, 59, 89);
   width: 100%;
 }
@@ -161,7 +163,7 @@ a {
 
 .categories a {
   font-size: 1.5em;
-  color: #17803f;
+  /* color: #17803f; */
 }
 
 /* Clearance */
@@ -171,23 +173,107 @@ a {
   background-repeat: no-repeat;
   min-height: 200px;
   position: relative;
+  background-position-y: center;
   margin-top: 50px;
   border: 2px solid #0b3b59;
   padding: 0px 5px;
 }
 
 .clearance-content {
-  /* position: absolute; */
   text-align: center;
 }
 
 .clearance-content h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #fff;
 }
 
 @media only screen and (min-width: 600px) {
+  .main {
+    max-width: 800px;
+    margin: 40px auto;
+  }
+
   .categories-specific {
     flex-wrap: nowrap;
   }
+
+  header {
+    align-items: flex-end;
+  }
+
+  nav {
+    display: flex;
+    position: static;
+  }
+
+  nav ul {
+    margin: 0px auto;
+    display: flex;
+    /* font-weight: bold; */
+  }
+
+  .nav-container label {
+    display: none;
+  }
 }
+
+@media only screen and (min-width: 1000px) {
+  .main {
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
+  .h2 {
+    font-size: 1.5em;
+  }
+
+  .cta {
+    padding: 10px 40px;
+    transition-duration: 0.4s;
+  }
+
+  .cta:hover {
+    background-color: #106497;
+  }
+
+  header {
+    max-width: 1200px;
+    margin: 0px auto;
+    font-weight: bold;
+  }
+
+  nav li {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .new-arrivals {
+    min-height: 455px;
+  }
+
+  .join {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .join p {
+    font-size: 20px;
+  }
+
+  .clearance {
+    min-height: 250px;
+  }
+
+  .clearance > *{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clearance-content h2 {
+    font-size: 2em;
+  }
