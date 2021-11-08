@@ -11,11 +11,33 @@
 
 .products img {
   width: 100%;
+  grid-column: -1/1;
+}
+
+.products p {
+  margin: 0px;
+  grid-column: 1;
+}
+
+.color {
+  grid-column: 2;
+}
+
+.products h3 {
+  grid-column: -1/1;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .cta-small {
   padding: 8px 20px;
   font-size: 0.9em;
+  grid-column: 2/3;
+  grid-row: 4/6;
+  text-align: center;
 }
 
 @media only screen and (min-width: 600px) {
@@ -75,7 +97,7 @@
   }
 
   .product-list {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   footer {
