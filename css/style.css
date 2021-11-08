@@ -194,8 +194,7 @@ footer {
   text-align: center;
 }
 
-
-/* Fra 600px */
+/* From Screen Size 600px */
 
 @media only screen and (min-width: 600px) {
   .main {
@@ -236,8 +235,7 @@ footer {
   }
 }
 
-
-/* Fra 1000px */
+/* From Screen Size 1000px */
 
 @media only screen and (min-width: 1000px) {
   .main {
@@ -292,7 +290,7 @@ footer {
     min-height: 250px;
   }
 
-  .clearance > *{
+  .clearance > * {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -304,3 +302,4 @@ footer {
     margin: 0px auto;
     text-align: center;
   }
+}
