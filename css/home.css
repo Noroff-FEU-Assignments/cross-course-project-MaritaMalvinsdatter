@@ -121,9 +121,14 @@ footer {
 /* From Screen Size 600px */
 
 @media only screen and (min-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
   .main {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 20px auto;
+    padding: 20px;
   }
 
   .categories-specific {
@@ -132,6 +137,9 @@ footer {
 
   header {
     align-items: flex-end;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
   }
 
   nav {
