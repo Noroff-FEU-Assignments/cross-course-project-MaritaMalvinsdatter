@@ -189,6 +189,9 @@ a {
 
 footer {
   background-color: #0b3b59;
+  bottom: 0;
+  margin: 0px auto;
+  text-align: center;
 }
 
 
@@ -294,4 +297,10 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  footer {
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
   }
