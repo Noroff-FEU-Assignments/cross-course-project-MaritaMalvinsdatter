@@ -187,11 +187,14 @@ a {
   color: #fff;
 }
 
+/* Footer */
+
 footer {
   background-color: #0b3b59;
   bottom: 0;
   margin: 0px auto;
   text-align: center;
+  color: #fff;
 }
 
 /* From Screen Size 600px */
