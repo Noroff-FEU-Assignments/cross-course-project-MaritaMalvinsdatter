@@ -5,12 +5,6 @@ Body {
   font-size: 16px;
 }
 
-header {
-  background-image: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg);
-  width: 100%;
-  height: auto;
-}
-
 .product-list {
   margin: 0px auto;
   display: grid;
@@ -25,7 +19,6 @@ header {
 .products img {
   width: 100%;
   grid-column: -1/1;
-  border: 1px solid #0b3b59;
 }
 
 .products p {
@@ -86,7 +79,6 @@ span {
   nav ul {
     margin: 0px auto;
     display: flex;
-    /* font-weight: bold; */
   }
 
   .nav-container label {
@@ -137,7 +129,6 @@ span {
   }
 
   nav li {
-    font-weight: bold;
     font-size: 1.5em;
   }
 
