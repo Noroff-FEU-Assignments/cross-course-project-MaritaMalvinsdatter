@@ -2,6 +2,16 @@
 
 /* Main */
 
+Body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg) no-repeat
+    top right fixed;
+  background-size: 100% 100%;
+  /* padding: 20px; */
+  font-size: 16px;
+}
+
 .new-arrivals {
   background-image: url(/images/pexels-guduru-ajay-bhargav-939722.jpg);
   background-size: cover;
