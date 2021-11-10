@@ -182,8 +182,29 @@ span {
   }
 
   .main {
-    max-width: 8000px;
+    max-width: 800px;
     margin: 40px auto;
+  }
+
+  .mount-sinai {
+    display: flex;
+  }
+
+  .mount-sinai > * {
+    flex: 1;
+  }
+
+  .flex-price {
+    display: block;
+  }
+
+  .mount-sinai-details {
+    padding: 0px 30px;
+    margin: 50px auto;
+  }
+
+  .mount-sinai img {
+    max-width: 450px;
   }
 
   .cta {
