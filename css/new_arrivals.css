@@ -58,14 +58,39 @@ span {
 /*Product Details*/
 
 .mount-sinai-details {
-  display: grid;
-  grid-template-columns: 1fr auto;
   margin: 20px auto;
   align-items: center;
 }
 
+.mount-sinai-details p {
+  margin: 5px 0;
+}
+
 .mount-sinai img {
   max-width: 100%;
+}
+
+.flex-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jacket-colors {
+  display: flex;
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+}
+
+.flex-colors {
+  margin: 5px 10px 15px 0;
+  min-width: 46px;
+}
+
+.flex-colors p {
+  margin: 0 auto;
 }
 
 .circle-red {
@@ -74,7 +99,6 @@ span {
   width: 25px;
   background-color: red;
   border-radius: 50%;
-  display: inline-block;
 }
 
 .circle-blue {
@@ -83,7 +107,6 @@ span {
   width: 25px;
   background-color: blue;
   border-radius: 50%;
-  display: inline-block;
 }
 
 .circle-yellow {
@@ -92,7 +115,6 @@ span {
   width: 25px;
   background-color: yellow;
   border-radius: 50%;
-  display: inline-block;
 }
 
 @media only screen and (min-width: 600px) {
