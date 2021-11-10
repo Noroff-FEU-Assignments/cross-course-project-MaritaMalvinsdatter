@@ -1,82 +1,99 @@
+.shopping-cart {
+  display: flex;
+  align-items: center;
+}
 
+.shopping-cart > * {
+  flex: 1;
+}
 
+.shopping-cart img {
+  max-width: 120px;
+  height: auto;
+}
 
+.shopping-cart-details p {
+  margin: 0px 0px 5px 5px;
+}
+
+.flex-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px 0px;
+}
 
 /* From Screen Size 600px */
 
 @media only screen and (min-width: 600px) {
-    body {
-      padding: 20px;
-    }
-  
-    .main {
-      max-width: 450px;
-      margin: 20px auto;
-    }
-  
-    header {
-      align-items: flex-end;
-      max-width: 800px;
-      margin: 0px auto;
-      padding: 20px;
-    }
-  
-    nav {
-      display: flex;
-      position: static;
-    }
-  
-    nav ul {
-      margin: 0px auto;
-      display: flex;
-    }
-  
-    .nav-container label {
-      display: none;
-    }
-  
-    .cta-small {
-      font-size: 0.8em;
-    }
+  body {
+    padding: 20px;
+  }
 
+  .main {
+    max-width: 450px;
+    margin: 20px auto;
+  }
+
+  header {
+    align-items: flex-end;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    position: static;
+  }
+
+  nav ul {
+    margin: 0px auto;
+    display: flex;
+  }
+
+  .nav-container label {
+    display: none;
+  }
+
+  .cta-small {
+    font-size: 0.8em;
+  }
+}
 
 /* From Screen Size 1000px */
 
 @media only screen and (min-width: 1000px) {
-   .main {
-      max-width: 800px;
-      margin: 40px auto;
-    }
-    
-  
-    .h2 {
-      font-size: 1.5em;
-    }
-  
-  
-    .cta {
-      padding: 10px 40px;
-      transition-duration: 0.4s;
-    }
-  
-    .cta:hover {
-      background-color: #106497;
-    }
-  
-    header {
-      max-width: 1200px;
-      margin: 0px auto;
-      font-weight: bold;
-    }
-  
-    nav li {
-      font-size: 1.5em;
-    }
-  
-    footer {
-      max-width: 1200px;
-      margin: 0px auto;
-      text-align: center;
-    }
+  .main {
+    max-width: 800px;
+    margin: 40px auto;
   }
-  
+
+  .h2 {
+    font-size: 1.5em;
+  }
+
+  .cta {
+    padding: 10px 40px;
+    transition-duration: 0.4s;
+  }
+
+  .cta:hover {
+    background-color: #106497;
+  }
+
+  header {
+    max-width: 1200px;
+    margin: 0px auto;
+    font-weight: bold;
+  }
+
+  nav li {
+    font-size: 1.5em;
+  }
+
+  footer {
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+  }
+}
