@@ -6,6 +6,8 @@ Body {
   margin: 0px auto;
 }
 
+/* New Arrivals */
+
 .product-list {
   margin: 0px auto;
   display: grid;
@@ -60,6 +62,9 @@ span {
 .mount-sinai-details {
   margin: 20px auto;
   align-items: center;
+}
+.mount-sinai h2 {
+  text-align: center;
 }
 
 .mount-sinai-details p {
@@ -133,10 +138,10 @@ span {
   body {
     padding: 20px;
   }
+
   .main {
-    max-width: 800px;
+    max-width: 450px;
     margin: 20px auto;
-    padding: 20px;
   }
 
   header {
@@ -163,6 +168,12 @@ span {
   .cta-small {
     font-size: 0.8em;
   }
+
+  .mount-sinai img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -171,7 +182,7 @@ span {
   }
 
   .main {
-    max-width: 1200px;
+    max-width: 8000px;
     margin: 40px auto;
   }
 
