@@ -122,10 +122,6 @@ span {
   border-radius: 50%;
 }
 
-/* .mount-sinai-details a {
-  margin: 20px 0px;
-} */
-
 .shipping {
   margin: 15px 00;
 }
@@ -182,8 +178,12 @@ span {
   }
 
   .main {
-    max-width: 800px;
+    max-width: 600px;
     margin: 40px auto;
+  }
+
+  .product-list {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .mount-sinai {
@@ -204,11 +204,11 @@ span {
   }
 
   .mount-sinai img {
-    max-width: 450px;
+    max-width: 350px;
   }
 
   .cta {
-    padding: 10px 20px;
+    padding: 10px 17px;
     transition-duration: 0.4s;
   }
 
@@ -218,6 +218,11 @@ span {
 
   .cta:hover {
     background-color: #106497;
+  }
+
+  .size_cta {
+    display: flex;
+    flex-direction: column;
   }
 
   header {
