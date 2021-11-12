@@ -25,6 +25,21 @@
 
 /* About Us */
 
+.flex-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 50px auto;
+}
+
+.cta-white {
+  background-color: #fff;
+  color: #0b3b59;
+  border: 1px solid #0b3b59;
+  font-size: 18px;
+}
+
 /* From Screen Size 600px */
 
 @media only screen and (min-width: 600px) {
