@@ -18,6 +18,11 @@
   margin: 0px 0px 5px 5px;
 }
 
+.main span {
+  font-size: 0.7em;
+  font-style: italic;
+}
+
 .flex-price {
   display: flex;
   justify-content: space-between;
@@ -40,12 +45,10 @@
   gap: 15px;
 }
 
-.cta-white {
-  background-color: #fff;
-  color: #0b3b59;
-  border: 1px solid #0b3b59;
-  font-size: 18px;
-  padding: 5px 20x;
+.loyalty-program a {
+  color: #0000ee;
+  text-decoration: underline;
+  font-size: 14px;
 }
 
 /* Check out Success */
@@ -103,26 +106,21 @@
   .nav-container label {
     display: none;
   }
-
-  .cta-small {
-    font-size: 0.8em;
-  }
 }
 
 /* From Screen Size 1000px */
 
 @media only screen and (min-width: 1000px) {
   .main {
-    max-width: 600px;
-    margin: 40px auto;
+    max-width: 500px;
+    margin: 60px auto;
   }
 
-  .h2 {
-    font-size: 1.5em;
+  .main span {
+    text-decoration: underline;
   }
 
   .cta {
-    padding: 10px 40px;
     transition-duration: 0.4s;
   }
 
@@ -130,14 +128,20 @@
     background-color: #106497;
   }
 
-  header {
-    max-width: 1200px;
-    margin: 0px auto;
-    font-weight: bold;
+  .cta-white:hover {
+    background-color: #106497;
+    color: #fff;
   }
 
-  nav li {
-    font-size: 1.5em;
+  .shopping-cart img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  header {
+    max-width: 1000px;
+    margin: 0px auto;
+    border-bottom: 1px solid #0b3b59;
   }
 
   footer {
