@@ -1,5 +1,24 @@
+.main,
+.popular_questions {
+  margin: 40px auto;
+}
+
 .questions {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-caret-down {
+  padding-right: 10px;
+}
+
+.contact {
+  margin: 20px auto;
+}
+
+.contact a {
+  text-decoration: underline;
 }
 
 /* From Screen Size 600px */
@@ -11,7 +30,6 @@
 
   .main {
     max-width: 450px;
-    margin: 20px auto;
   }
 
   header {
@@ -45,7 +63,11 @@
 @media only screen and (min-width: 1000px) {
   .main {
     max-width: 600px;
-    margin: 40px auto;
+    margin: 100px auto;
+  }
+
+  .popular_questions {
+    margin: 60px auto;
   }
 
   .h2 {
