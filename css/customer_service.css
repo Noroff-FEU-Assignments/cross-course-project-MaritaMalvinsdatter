@@ -33,13 +33,6 @@
   margin: 50px auto;
 }
 
-.cta-white {
-  background-color: #fff;
-  color: #0b3b59;
-  border: 1px solid #0b3b59;
-  font-size: 18px;
-}
-
 /* From Screen Size 600px */
 
 @media only screen and (min-width: 600px) {
@@ -71,10 +64,6 @@
   .nav-container label {
     display: none;
   }
-
-  .cta-small {
-    font-size: 0.8em;
-  }
 }
 
 /* From Screen Size 1000px */
@@ -94,7 +83,6 @@
   }
 
   .cta {
-    padding: 10px 40px;
     transition-duration: 0.4s;
   }
 
