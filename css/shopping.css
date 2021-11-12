@@ -1,5 +1,9 @@
 /* Shopping Cart*/
 
+h2 {
+  font-size: 20px;
+}
+
 .shopping-cart {
   display: flex;
   align-items: center;
