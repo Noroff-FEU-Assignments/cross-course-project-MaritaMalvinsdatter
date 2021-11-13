@@ -77,7 +77,7 @@
 
   .main {
     max-width: 600px;
-    margin: 40px auto;
+    margin: 100px auto;
   }
 
   .cta {
@@ -174,5 +174,11 @@
   .shopping-cart img {
     max-width: 150px;
     height: auto;
+  }
+
+  /* Customer Service & About Us*/
+
+  .popular_questions {
+    margin: 60px auto;
   }
 }

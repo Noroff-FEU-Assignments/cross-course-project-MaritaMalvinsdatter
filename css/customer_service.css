@@ -35,7 +35,7 @@
 
 /* From Screen Size 600px */
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   body {
     padding: 20px;
   }
@@ -64,23 +64,23 @@
   .nav-container label {
     display: none;
   }
-}
+} */
 
 /* From Screen Size 1000px */
 
 @media only screen and (min-width: 1000px) {
-  .main {
+  /* .main {
     max-width: 600px;
     margin: 100px auto;
-  }
+  } */
 
-  .popular_questions {
+  /* .popular_questions {
     margin: 60px auto;
-  }
+  } */
 
-  .h2 {
-    font-size: 1.5em;
-  }
+  /* .h2 {
+    font-size: 1.5em; */
+  /* }
 
   .cta {
     transition-duration: 0.4s;
@@ -104,5 +104,5 @@
     max-width: 1200px;
     margin: 0px auto;
     text-align: center;
-  }
+  } */
 }
