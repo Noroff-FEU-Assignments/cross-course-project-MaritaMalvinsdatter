@@ -77,3 +77,7 @@ h2 {
 .thank-you .flex-buttons {
   margin: 20px auto;
 }
+
+.cta-faq {
+  padding: 5px 99px;
+}
