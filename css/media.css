@@ -28,6 +28,11 @@
     display: none;
   }
 
+  .main {
+    max-width: 450px;
+    margin: 20px auto;
+  }
+
   /* Home Page */
 
   .main_home {
@@ -50,14 +55,6 @@
   }
 
   /* New Arrivals & Product Page */
-  .main {
-    max-width: 450px;
-    margin: 20px auto;
-  }
-
-  /* .cta-small {
-    font-size: 0.8em;
-  } */
 
   .mount-sinai img {
     display: block;
@@ -78,6 +75,25 @@
     font-size: 20px;
   }
 
+  .main {
+    max-width: 600px;
+    margin: 40px auto;
+  }
+
+  .cta {
+    padding: 10px 40px;
+    transition-duration: 0.4s;
+  }
+
+  .cta:hover {
+    background-color: #106497;
+  }
+
+  .cta-white:hover {
+    background-color: #106497;
+    color: #fff;
+  }
+
   footer {
     max-width: 1200px;
     margin: 0px auto;
@@ -93,15 +109,6 @@
 
   .categories h2 {
     font-size: 2em;
-  }
-
-  .cta {
-    padding: 10px 40px;
-    transition-duration: 0.4s;
-  }
-
-  .cta:hover {
-    background-color: #106497;
   }
 
   .new-arrivals {
@@ -132,11 +139,6 @@
 
   /* New Arrivals & Product Page */
 
-  .main {
-    max-width: 600px;
-    margin: 40px auto;
-  }
-
   .product-list {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -165,5 +167,12 @@
   .size_cta {
     display: flex;
     flex-direction: column;
+  }
+
+  /*Shopping Cart & Checkout Success*/
+
+  .shopping-cart img {
+    max-width: 150px;
+    height: auto;
   }
 }
