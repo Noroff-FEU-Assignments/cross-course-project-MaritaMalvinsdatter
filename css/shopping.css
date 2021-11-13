@@ -49,9 +49,12 @@ h2 {
   gap: 15px;
 }
 
+.sign-in {
+  margin-bottom: 15px;
+}
+
 .loyalty-program a {
   color: #0000ee;
-  text-decoration: underline;
   font-size: 14px;
 }
 
