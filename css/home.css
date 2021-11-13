@@ -8,7 +8,6 @@ Body {
   background: url(../images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg) no-repeat
     top right fixed;
   background-size: 100% 100%;
-  /* padding: 20px; */
   font-size: 16px;
 }
 
@@ -121,13 +120,7 @@ Body {
 /* From Screen Size 600px */
 
 @media only screen and (min-width: 600px) {
-  body {
-    padding: 20px;
-  }
-
-  .main {
-    max-width: 800px;
-    margin: 20px auto;
+  /* body {
     padding: 20px;
   }
 
@@ -155,6 +148,14 @@ Body {
 
   .nav-container label {
     display: none;
+  } */
+
+  /* Home Page */
+
+  /* .main_home {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
   }
 
   .clearance {
@@ -164,19 +165,37 @@ Body {
   .clearance h2 {
     font-size: 2em;
     margin-top: 50px;
-  }
+  } */
 }
 
 /* From Screen Size 1000px */
 
-@media only screen and (min-width: 1000px) {
-  .main {
+/* @media only screen and (min-width: 1000px) {
+  header {
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 0px auto;
+    font-weight: bold;
   }
 
-  .h2 {
+  footer {
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  nav li {
     font-size: 1.5em;
+  } */
+
+/* .h2 {
+    font-size: 1.5em;
+  } */
+
+/* Home Page */
+
+/* .main_home {
+    max-width: 1200px;
+    margin: 40px auto;
   }
 
   .categories h2 {
@@ -190,16 +209,6 @@ Body {
 
   .cta:hover {
     background-color: #106497;
-  }
-
-  header {
-    max-width: 1200px;
-    margin: 0px auto;
-    font-weight: bold;
-  }
-
-  nav li {
-    font-size: 1.5em;
   }
 
   .new-arrivals {
@@ -227,10 +236,4 @@ Body {
     flex-direction: column;
     align-items: center;
   }
-
-  footer {
-    max-width: 1200px;
-    margin: 0px auto;
-    text-align: center;
-  }
-}
+} */
