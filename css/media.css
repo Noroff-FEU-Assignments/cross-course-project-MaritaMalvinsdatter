@@ -5,15 +5,12 @@
     padding: 20px;
   }
 
-  .categories-specific {
-    flex-wrap: nowrap;
-  }
-
   header {
     align-items: flex-end;
     max-width: 800px;
     margin: 0px auto;
     padding: 20px;
+    border-bottom: 1px solid #0b3b59;
   }
 
   nav {
@@ -39,6 +36,10 @@
     padding: 20px;
   }
 
+  .categories-specific {
+    flex-wrap: nowrap;
+  }
+
   .clearance {
     min-height: 200px;
   }
@@ -46,6 +47,22 @@
   .clearance h2 {
     font-size: 2em;
     margin-top: 50px;
+  }
+
+  /* New Arrivals & Product Page */
+  .main {
+    max-width: 450px;
+    margin: 20px auto;
+  }
+
+  /* .cta-small {
+    font-size: 0.8em;
+  } */
+
+  .mount-sinai img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -57,14 +74,14 @@
     margin: 0px auto;
   }
 
+  nav li {
+    font-size: 20px;
+  }
+
   footer {
     max-width: 1200px;
     margin: 0px auto;
     text-align: center;
-  }
-
-  nav li {
-    font-size: 20px;
   }
 
   /* Home Page */
@@ -111,5 +128,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  /* New Arrivals & Product Page */
+
+  .main {
+    max-width: 600px;
+    margin: 40px auto;
+  }
+
+  .product-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .mount-sinai {
+    display: flex;
+  }
+
+  .mount-sinai > * {
+    flex: 1;
+  }
+
+  .flex-price {
+    display: block;
+  }
+
+  .mount-sinai-details {
+    padding: 0px 30px;
+    margin: 50px auto;
+  }
+
+  .mount-sinai img {
+    max-width: 350px;
+  }
+
+  .size_cta {
+    display: flex;
+    flex-direction: column;
   }
 }
