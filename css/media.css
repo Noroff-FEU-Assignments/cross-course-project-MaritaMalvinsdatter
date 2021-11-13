@@ -55,7 +55,6 @@
   header {
     max-width: 1200px;
     margin: 0px auto;
-    font-weight: bold;
   }
 
   footer {
@@ -65,12 +64,8 @@
   }
 
   nav li {
-    font-size: 1.5em;
+    font-size: 20px;
   }
-
-  /* .h2 {
-      font-size: 1.5em;
-    } */
 
   /* Home Page */
 
