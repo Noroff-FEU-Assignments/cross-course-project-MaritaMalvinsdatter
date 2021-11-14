@@ -71,71 +71,6 @@ span {
   color: red;
 }
 
-/*Product Details*/
-
-.mount-sinai-details {
-  margin: 20px auto;
-  align-items: center;
-}
-.mount-sinai h2 {
-  text-align: center;
-}
-
-.mount-sinai-details p {
-  margin: 5px 0;
-}
-
-.mount-sinai img {
-  max-width: 100%;
-}
-
-.flex-price {
-  display: flex;
-  justify-content: space-between;
-}
-
-.jacket-colors {
-  display: flex;
-  text-align: center;
-}
-
-span {
-  display: inline-block;
-}
-
-.flex-colors {
-  margin: 5px 10px 15px 0;
-  min-width: 46px;
-}
-
-.flex-colors p {
-  margin: 0 auto;
-}
-
-.circle-red {
-  border: 1px solid black;
-  height: 15px;
-  width: 15px;
-  background-color: red;
-  border-radius: 50%;
-}
-
-.circle-blue {
-  border: 1px solid black;
-  height: 15px;
-  width: 15px;
-  background-color: blue;
-  border-radius: 50%;
-}
-
-.circle-yellow {
-  border: 1px solid black;
-  height: 15px;
-  width: 15px;
-  background-color: yellow;
-  border-radius: 50%;
-}
-
 .popup-box {
   margin: 20px 0;
 }
@@ -170,21 +105,8 @@ span {
   width: 70%;
 }
 
-.cta-bag {
-  padding: 5px 75px;
-}
-
 .close-window {
   text-align: right;
-}
-
-.flex-info {
-  display: flex;
-  justify-content: space-between;
-}
-
-.flex-info p {
-  margin: 0px 0px 5px 0px;
 }
 
 .flex-buttons {
@@ -192,12 +114,4 @@ span {
   flex-direction: column;
   align-items: center;
   gap: 15px;
-}
-
-.shipping {
-  margin: 15px 00;
-}
-
-.shipping p {
-  margin: 0px auto;
 }
