@@ -62,9 +62,6 @@
     margin-right: auto;
   }
 
-  .popup-box {
-    width: 70%;
-  }
   .popup {
     width: 50%;
   }
@@ -157,10 +154,6 @@
     flex: 1;
   }
 
-  /* .flex-price {
-    display: block;
-  } */
-
   .mount-sinai-details {
     padding: 0px 30px;
     margin: 50px auto;
@@ -169,11 +162,6 @@
   .mount-sinai img {
     max-width: 350px;
   }
-
-  /* .size_cta {
-    display: flex;
-    flex-direction: column;
-  } */
 
   .popup {
     width: 30%;
