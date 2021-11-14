@@ -127,6 +127,26 @@ span {
   border-radius: 50%;
 }
 
+.popup-box {
+  margin: 20px 0;
+}
+
+.flex-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-info p {
+  margin: 0px 0px 5px 0px;
+}
+
+.flex-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
 .shipping {
   margin: 15px 00;
 }

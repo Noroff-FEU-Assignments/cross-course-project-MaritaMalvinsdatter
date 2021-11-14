@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/new_arrivals.css">
         <link rel="stylesheet" href="/css/media.css">
+        <link rel="stylesheet" href="/css/popup.css">
         <title>Rainy Days | Mount Sinai Jacket</title>
     </head>
 <body>
@@ -58,7 +59,9 @@
               <div  class="size_cta">
                 <p>SIZE:</p>
                 <p>XS S M L XL</p>
-                <a href="shopping_cart.html" class= "cta cta-small">Add to Basket</a>
+                <div class="popup-box">
+                  <a href="#popup" class= "cta cta-small">Add to bag</a>
+                </div>
               </div>
              </div>
             </section>
@@ -77,8 +80,30 @@
                makes you feels as uniqe as this jackets is. 
                100% satisfaction quarantee. </p>
         </div>
-        
         </section>
+        <div id="popup" class="overlay">
+          <div class="popup">
+            <div class="content">
+              <p>Product added to shopping cart</p>
+                <hr>
+                <p>You have 1 item in the bag</p>
+                <hr>
+                <div class="flex-info">
+                    <p>Sub total</p>
+                    <p>$150</p>
+                </div>
+                <div class="flex-info">
+                    <p>Shipping</p>
+                    <p>Free</p>
+                </div>
+                <p>Esimated delivery in 1-3 days</p>
+                <hr>
+                <div class= "flex-buttons">
+                    <a href="/shopping_cart.html" class= "cta cta-small">Go to Bag</a>
+                    <a href="/new_arrivals.html" class= "cta cta-white">Continue shopping</a>
+                </div>
+          </div>
+        </div>
     </main>  
     <footer>
       Copyright &copy;
