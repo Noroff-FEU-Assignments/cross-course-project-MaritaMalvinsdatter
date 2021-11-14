@@ -144,6 +144,10 @@ span {
   min-width: 20px;
 }
 
+.content {
+  text-align: center;
+}
+
 .ontop {
   position: fixed;
   top: 0;
