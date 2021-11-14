@@ -131,6 +131,10 @@ span {
   margin: 20px 0;
 }
 
+.close-window {
+  text-align: right;
+}
+
 .flex-info {
   display: flex;
   justify-content: space-between;
