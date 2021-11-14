@@ -131,6 +131,10 @@ span {
   margin: 20px 0;
 }
 
+.popup-box a {
+  min-width: 20px;
+}
+
 .close-window {
   text-align: right;
 }
