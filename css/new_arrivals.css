@@ -8,6 +8,11 @@ Body {
 
 /* New Arrivals */
 
+.main-new-arrivals {
+  max-width: 800px;
+  margin: 100px auto;
+}
+
 .product-list {
   margin: 0px auto;
   display: grid;
@@ -51,7 +56,7 @@ span {
 
 .cta-small {
   padding: 8px 20px;
-  font-size: 0.7em;
+  font-size: 0.8em;
   grid-column: 2/3;
   grid-row: 4/6;
   text-align: center;
