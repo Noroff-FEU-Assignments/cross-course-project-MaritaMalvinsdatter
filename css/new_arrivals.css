@@ -136,6 +136,10 @@ span {
   min-width: 20px;
 }
 
+.cta-bag {
+  padding: 5px 75px;
+}
+
 .close-window {
   text-align: right;
 }
