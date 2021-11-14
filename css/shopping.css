@@ -53,9 +53,21 @@ h2 {
   margin-bottom: 15px;
 }
 
-.loyalty-program a {
+.loyalty-program p {
+  margin: 5px 0;
+}
+
+.voucher a {
   color: #0000ee;
   font-size: 14px;
+}
+
+.loyalty-program > *:first-child {
+  font-weight: bold;
+}
+
+.sign-in {
+  margin: 15px 0;
 }
 
 /* Check out Success */
