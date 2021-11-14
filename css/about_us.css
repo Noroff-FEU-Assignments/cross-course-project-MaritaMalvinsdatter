@@ -1,0 +1,11 @@
+.flex-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 50px auto;
+}
+
+.questions a {
+  text-decoration: underline;
+}
