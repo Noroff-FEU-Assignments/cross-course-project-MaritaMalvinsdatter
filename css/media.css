@@ -35,7 +35,7 @@
 
   /* Home Page */
 
-  .main_home {
+  .main-home {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -102,7 +102,7 @@
 
   /* Home Page */
 
-  .main_home {
+  .main-home {
     max-width: 1200px;
     margin: 40px auto;
   }
@@ -178,7 +178,7 @@
 
   /* Customer Service & About Us*/
 
-  .popular_questions {
+  .popular-questions {
     margin: 60px auto;
   }
 }
