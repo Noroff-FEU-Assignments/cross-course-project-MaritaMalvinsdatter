@@ -74,6 +74,7 @@ nav {
 
 .search {
   margin-top: 15px;
+  display: none;
 }
 
 .nav-container {
