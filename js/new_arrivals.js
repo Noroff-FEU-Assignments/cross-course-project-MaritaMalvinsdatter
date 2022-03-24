@@ -10,6 +10,6 @@ jacketList.forEach((jacket) => {
     <p>${jacket.category}</p>
     <p><span>${jacket.price}</span></p> 
     <p class="color">3 colors</p>
-    <a href="product.html" class="cta cta-small">Buy</a>
+    <a href="product.html?id=${jacket.id}" class="cta cta-small">Buy</a>
     </div> `
 });

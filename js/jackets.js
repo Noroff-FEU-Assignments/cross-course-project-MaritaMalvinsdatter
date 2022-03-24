@@ -121,6 +121,8 @@ export default [
     }
 ]
 
+
+
 // for (var i = 0; i < listOfJackets.length; i++) {
 //     // console.log(listOfJackets[i]);
 //     console.log(listOfJackets[i].sizes);
