@@ -1,9 +1,9 @@
-let listOfJackets = [
+export default [
     {
         name: "Mount Aoraki",
         colors: ["purple", "blue", "yellow"],
         price: "$150",
-        img: "../images/shutterstock_1051168844.jpg",
+        img: "../images/shutterstock_490157665.jpg",
         description: "Light-weight rain jacket for long days out in the rain. Slim fit",
         sizes: ["S", "M", "L", "XL", "2XL"],
         category: "Women's",
@@ -13,7 +13,7 @@ let listOfJackets = [
         name: "Mount Galdhopiggen",
         colors: ["red", "blue", "green"],
         price: "$180",
-        img: "../images/shutterstock_490157800.jpg",
+        img: "../images/shutterstock_1051168844.jpg",
         description: "A warmer rain jacket for long days out in the rain. Normal fit",
         sizes: ["S", "M", "L", "XL", "2XL"],
         category: "Men's",
@@ -26,7 +26,7 @@ let listOfJackets = [
         img: "../images/shutterstock_1051168844.jpg",
         description: "Light-weight rain jackets for long days out in the rain. Large fit",
         sizes: ["S", "M", "L", "XL", "2XL"],
-        category: "Woman's",
+        category: "Women's",
         id: "0003",
     },
     {
@@ -46,7 +46,7 @@ let listOfJackets = [
         img: "../images/shutterstock_1662279994.jpg",
         description: "Light weight rain jacket for long days out in the rain. Slim fit",
         sizes: ["S", "M", "L", "XL", "2XL"],
-        category: "Woman's",
+        category: "Women's",
         id: "0005",
     },
     {
@@ -86,7 +86,7 @@ let listOfJackets = [
         img: "../images/shutterstock_1051168844.jpg",
         description: "Light-weight rain jackets for long days out in the rain. Large fit",
         sizes: ["S", "M", "L", "XL", "2XL"],
-        category: "Woman's",
+        category: "Women's",
         id: "0009",
     },
     {
@@ -106,7 +106,7 @@ let listOfJackets = [
         img: "../images/shutterstock_1662279994.jpg",
         description: "Light weight rain jacket for long days out in the rain. Slim fit",
         sizes: ["S", "M", "L", "XL", "2XL"],
-        category: "Woman's",
+        category: "Women's",
         id: "0011",
     },
     {
@@ -121,7 +121,7 @@ let listOfJackets = [
     }
 ]
 
-for (var i = 0; i < listOfJackets.length; i++) {
-    // console.log(listOfJackets[i]);
-    console.log(listOfJackets[i].sizes);
-   }
+// for (var i = 0; i < listOfJackets.length; i++) {
+//     // console.log(listOfJackets[i]);
+//     console.log(listOfJackets[i].sizes);
+//    }

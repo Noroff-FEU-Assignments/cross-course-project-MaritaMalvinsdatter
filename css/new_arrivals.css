@@ -58,8 +58,8 @@ span {
 .cta-small {
   padding: 6px 20px;
   font-size: 0.8em;
-  grid-column: 2/3;
-  grid-row: 4/6;
+  /* grid-column: 2/3; */
+  /* grid-row: 4/6; */
   text-align: center;
   border: 1px solid #0b3b59;
 }
