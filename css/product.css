@@ -1,16 +1,16 @@
-.mount-sinai-details {
+.jacket-details {
   margin: 20px auto;
   align-items: center;
 }
-.mount-sinai h2 {
+.jacket h2 {
   text-align: center;
 }
 
-.mount-sinai-details p {
+.jacket-details p {
   margin: 5px 0;
 }
 
-.mount-sinai img {
+.jacket img {
   max-width: 100%;
 }
 

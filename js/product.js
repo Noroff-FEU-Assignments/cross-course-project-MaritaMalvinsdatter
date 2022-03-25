@@ -1,7 +1,7 @@
 import products from "./jackets.js";
 
 const newTitle = document.querySelector("title")
-const jacketInfo = document.querySelector(".jacketinfo")
+const jacketInfo = document.querySelector(".productcontainer")
 
 
 var url = window.location.href;
@@ -11,12 +11,19 @@ const product = products.find(findJacket)
 
 function findJacket(product) {
     if(product.id === id) {
-        jacketInfo.innerHTML += `<div class="test"> <h1>${product.name}</h1>
-                            </div>`
+        jacketInfo.innerHTML += `<div class="jacket"> 
+        <h1>${product.name}</h1>
+        <img src="${product.img}">
+        <div class="jacket-details>
+            <p>${product.category}</p>
+        </div>
+        </div>`
+
+
         
     } 
 }
 
-console.log();
+
 
 
