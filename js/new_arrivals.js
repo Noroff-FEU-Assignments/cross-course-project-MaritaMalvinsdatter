@@ -4,7 +4,9 @@ const productContainer = document.querySelector(".product-list");
 
 jacketList.forEach((jacket) => {
     productContainer.innerHTML += `<div class="products">
+    <div class="product-img">
     <img src="${jacket.img}">
+    </div>
     <h3>${jacket.name}</h3>
     <i class="far fa-heart"></i>
     <p>${jacket.category}</p>
