@@ -49,8 +49,6 @@ function findJacket(product) {
 }
 
 
-// Add to cart
-
 
 
 
