@@ -19,6 +19,10 @@
   .logo {
     max-width: 120px;
   }
+
+  .price {
+    font-size: 1.2em;
+  }
 }
 
 /* From Screen Size 600px */
@@ -81,6 +85,10 @@
 
   .popup {
     width: 50%;
+  }
+
+  .price {
+    font-size: 1.5em;
   }
 }
 
