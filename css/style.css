@@ -102,7 +102,7 @@ nav ul {
 }
 
 nav li {
-  display: inline;
+  /* display: inline; */
   padding: 0 10px;
   font-size: 20px;
 }

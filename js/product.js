@@ -14,14 +14,14 @@ function findJacket(product) {
         jacketInfo.innerHTML += `<div class="jacket"> 
         <h1>${product.name}</h1>
         <img src="${product.img}">
-        <div class="jacket-details>
-            <div class="flex-price">
+        <div>
+            <div class="jacket-details">
                 <p>${product.category}</p>
-                <p>${product.price}</p>
-                <p>Wishlist <i class="far fa-heart"></i></p>
+                <p class="price">${product.price}</p>
             </div>
-            <p>Colors:</p>
+            
             <div class="jacket-colors">
+            <p>Colors:</p>
                 <div class="flex-colors">
                   <span class="circle-red"></span>
                   <p>Red</p>

@@ -1,9 +1,15 @@
+.productcontainer,
+.general-info {
+  max-width: 500px;
+}
+
+.jacket h1 {
+  text-align: center;
+}
+
 .jacket-details {
   margin: 20px auto;
   align-items: center;
-}
-.jacket h2 {
-  text-align: center;
 }
 
 .jacket-details p {
@@ -12,6 +18,10 @@
 
 .jacket img {
   max-width: 100%;
+}
+
+.price {
+  font-size: 1.5em;
 }
 
 .flex-price {
