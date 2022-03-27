@@ -16,7 +16,7 @@ jacketList.forEach((jacket) => {
         return favheart.id === jacket.id;
     })
 
-    console.log(doesFavExist);
+    // console.log(doesFavExist);
 
     if(doesFavExist) {
         cssHeart = "fas";

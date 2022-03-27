@@ -1,8 +1,6 @@
 import products from "./jackets.js";
 
-const newTitle = document.querySelector("title")
 const jacketInfo = document.querySelector(".productcontainer")
-
 
 var url = window.location.href;
 var id = url.substring(url. lastIndexOf('=') + 1)
@@ -49,6 +47,13 @@ function findJacket(product) {
         
     } 
 }
+
+
+// Add to cart
+
+
+
+
 
 
 
