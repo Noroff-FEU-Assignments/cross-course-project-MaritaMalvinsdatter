@@ -10,11 +10,10 @@ function getExistingFav() {
 
 const favourite = getExistingFav();
 
-const productContainer = document.querySelector(".favourites-container");
+const productContainer = document.querySelector(".product-list");
 
 favourite.forEach(fav => {
-    productContainer.innerHTML += `<div class="product-list">
-    <div class="products">
+    productContainer.innerHTML += `<div class="products">
     <div class="product-img">
     <img src="${fav.img}">
     </div>
@@ -26,5 +25,4 @@ favourite.forEach(fav => {
     <a href="product.html?id=${fav.id}" class="cta cta-small">Buy</a>
     </div>
     </div>`
-
 });

@@ -1,20 +1,41 @@
+// Displaying the jackets + checking if favourites exists 
+
 import jacketList from "./jackets.js";
 
 const productContainer = document.querySelector(".product-list");
 
+const favourite = getExistingFav();
+
 jacketList.forEach((jacket) => {
+
+    var cssHeart = "far";
+
+    const doesFavExist = favourite.find(function (favheart) {
+        // console.log(favheart);
+
+        return favheart.id === jacket.id;
+    })
+
+    console.log(doesFavExist);
+
+    if(doesFavExist) {
+        cssHeart = "fas";
+    }
+
     productContainer.innerHTML += `<div class="products">
     <div class="product-img">
     <img src="${jacket.img}">
     </div>
     <h3>${jacket.name}</h3>
-    <i class="far fa-heart" data-id="${jacket.id}" data-name="${jacket.name}" data-price="${jacket.price}" data-img="${jacket.img}" data-category="${jacket.category}"></i>
+    <i class="${cssHeart} fa-heart" data-id="${jacket.id}" data-name="${jacket.name}" data-price="${jacket.price}" data-img="${jacket.img}" data-category="${jacket.category}"></i>
     <p>${jacket.category}</p>
     <p><span>${jacket.price}</span></p> 
     <p class="color">3 colors</p>
     <a href="product.html?id=${jacket.id}" class="cta cta-small">Buy</a>
     </div> `
 });
+
+// Favorites section
 
 const favIcons = document.querySelectorAll(".products i")
 
@@ -33,7 +54,7 @@ function handleClick() {
     const img = this.dataset.img;
     const category = this.dataset.category;
 
-    console.log(category);
+    // console.log(category);
 
     const currentFav = getExistingFav();
 
@@ -50,7 +71,7 @@ function handleClick() {
         saveFav(newFav);
     }
     
-    console.log("itemExists", itemExists);
+    // console.log("itemExists", itemExists);
 
     
 }

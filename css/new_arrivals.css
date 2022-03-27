@@ -8,7 +8,8 @@ Body {
 
 /* New Arrivals */
 
-.main-new-arrivals {
+.main-new-arrivals,
+.favourites {
   max-width: 800px;
   margin: 100px auto;
 }
@@ -62,8 +63,6 @@ span {
 .cta-small {
   padding: 6px 20px;
   font-size: 0.8em;
-  /* grid-column: 2/3; */
-  /* grid-row: 4/6; */
   text-align: center;
   border: 1px solid #0b3b59;
 }
@@ -71,10 +70,6 @@ span {
 .fa-heart {
   position: absolute;
 }
-
-/* .fa-heart:hover {
-  color: red;
-} */
 
 .popup-box {
   margin: 20px 0;

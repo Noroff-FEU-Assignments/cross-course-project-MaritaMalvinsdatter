@@ -17,11 +17,8 @@
 }
 
 .jacket img {
-  max-width: 100%;
-}
-
-.price {
-  font-size: 1.5em;
+  max-width: 80%;
+  margin: 50px;
 }
 
 .flex-price {

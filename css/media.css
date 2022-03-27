@@ -20,8 +20,17 @@
     max-width: 120px;
   }
 
+  .jacket img {
+    margin: 30px;
+  }
+
   .price {
     font-size: 1.2em;
+  }
+
+  .main-new-arrivals,
+  .favourites {
+    margin: 70px auto;
   }
 }
 
