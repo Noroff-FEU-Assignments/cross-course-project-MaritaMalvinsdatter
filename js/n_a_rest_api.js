@@ -1,5 +1,5 @@
 
-const baseUrl = "https://www.malvinsdatter.no/wp-json/wc/store/products";
+const baseUrl = "https://www.malvinsdatter.no/wp-json/wc/store/products/";
 
 const productContainer = document.querySelector(".product-list");
 
