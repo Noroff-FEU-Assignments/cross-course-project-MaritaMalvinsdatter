@@ -25,6 +25,7 @@ async function getJacket() {
             <div class="jacket-details">
                 <p>${product.categories[0].name}</p>
                 <p class="price">$${product.prices.price}</p>
+                <p><i>${product.description}</i></p>
             </div>
             <div class="jacket-colors">
             <p>Colors:</p>
