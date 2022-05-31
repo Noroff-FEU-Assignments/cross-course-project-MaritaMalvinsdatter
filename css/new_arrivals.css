@@ -29,6 +29,7 @@ Body {
   min-width: 100px;
   grid-column: -1/1;
 }
+
 .products img {
   width: 100%;
   grid-column: -1/1;
